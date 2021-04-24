@@ -1,9 +1,22 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: inline-block;
 }
-
 body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
+    overflow: hidden;
+    
+}
+    .background {
+        margin-top: 2%;
+        width: auto;
+        height: 100vh;
+    img{
+       height: 80%;
+    }
 }
