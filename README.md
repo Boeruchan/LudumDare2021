@@ -62,6 +62,38 @@ DD = As you go towards to the delicious smell you bumped up to something slimy a
 It croaked.... ribbit.... Two large eyes are suddenly lit up and thats the last what you ever see.
 Greed killed Lu the Mole.
 
+A3 G
+As you dig deeper into the ground you can smell and sense that there is somthing very yummy nearby. Its even better than the one before you digging this hole.
+Sadly you hit a big stone and cannot go further down.
++1 go right (G)
++2 go left (G)
+
+A3 ( G )
+As you go +1 or +2 you can feel that the ground is a bit more moist then the earth above you. And you can dig further down.
++1 dig further to +1 / +2
++2 dig down (DD)
+
+DD =  As you dig further down you suddenly fell from a big height into the water. But because of a strong current you sadly cant grab the sides.
+Lu the Mole has drowned.
+
+A4
+You dig further and see something pinkish sticking out next to you. On the right the biggst fattest worm you have ever seen! On the left a little bit tinier than the biggest fattest worm on your right.
++1 EAT THAT BIGGEST FATTEST WORM (DD)
++2 EAT THAT LESS BIGGER FATTEST WORM
+
+DD = snake..... Snaaakkkee..... SNNNAAAKKKKEEEEEE..........
+Lu the Mole was choked to death by a snake.
+
+A5 (True ending)
+You grabbed the les bigger fattest worm and took it with you back to your house. And had a full satisfying tummy to enjoy the rest of your day.
+(some cozy picture of a mole under a leaf as a blanket)
+
+------------------------------------------------------------------
+Storyline B
+A1 DD
+As you dig to go above the ground you and stick your head out, you got grabbed by an owl.
+Lu the Mole died by being stupid.
+
 
 
 
