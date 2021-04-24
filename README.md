@@ -50,8 +50,8 @@ Curiosity killed Lu the Mole.
 A2 G
 As you headed your right way, you felt the trembling on your left and a tiny scream.
 As you go on further you smell the worm on the end of the tunnel and blurred shimmering.
-+1 Dig a hole underneath you. (G)
-+2 Trust your instinct go to the worm. (D)
++2 Dig a hole underneath you. (G)
++1 Trust your instinct go to the worm. (D)
 
 A3 D
 You crawl quickly towards the worm, the nearer you are the slimier the grounds get. Does it mean that you get a slug and a worm as breakfast?
