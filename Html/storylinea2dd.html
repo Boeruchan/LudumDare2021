@@ -8,6 +8,11 @@
     <title>Lu Mole Dare</title>
 </head>
 <body>
+    <audio id="sound" loop>
+        <source src="../audio/mole_dead.mp3" type="audio/mp3" >
+      </audio>
+    <div class="music"><img src="../img/music.png" onclick="playSound('sound')">
+    </div>
     <div class="background">
     <img src="../img/a2dd.JPG" />
 <div class="restart">
@@ -18,6 +23,6 @@
     He hitted Lu the Mole on his head, Lu the Mole is Dead.
 </p>
 
-
+<script src="../js/audio.js"></script>
 </body>
 </html>

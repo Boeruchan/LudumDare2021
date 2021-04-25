@@ -8,6 +8,11 @@
     <title>Lu Mole Dare</title>
 </head>
 <body>
+    <audio id="sound" loop>
+        <source src="../audio/mole_music.mp3" type="audio/mp3" >
+      </audio>
+    <div class="music"><img src="../img/music.png" onclick="playSound('sound')">
+    </div>
     <div class="background">
     <img src="../img/a4.JPG" />
         <div class="arrowtoleft">
@@ -20,6 +25,6 @@
 You hitted a rock and now Lu the Mole has to go left or right.</p>
 
 
-
+<script src="../js/audio.js"></script>
 </body>
 </html>
