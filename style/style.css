@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,48 +7,256 @@
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
   overflow: hidden;
 }
-
-.background {
-  position: relative;
-  margin-top: 2%;
-  width: auto;
-  height: 100vh;
+p{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3rem;
+  margin-top: -18vh;
+  color: white;
+  z-index: 20;
 }
+  .background {
+      position: relative;
+      margin-top: 2%;
+      width: auto;
+      height: 100vh;
+  }
+  img{
+     height: 80%;
+  }
+  .start{
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 35%;
+    width: 50%;
+    height: auto;
+    transition: ease-in-out 2s;
+  }
+  .start a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+  .start:hover{
+      transform: rotate(10deg);
+  }
+  .hole{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    right: 0%;
+    width: 32%;
+    height: auto;
+    transition: ease-in-out 2s;
+  }
+  .hole a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+  .hole:hover{
+      transform: rotate(10deg);
+      
+  }
+  .ladder{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    left: 2%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 2s;
+  }
+  .ladder a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+.ladder:hover{
+      transform: rotate(10deg);
+  }
+  .arrowtoa{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 45%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .arrowtoa a img {
+    width: 50%;
+      height: auto;
+        transform: rotate(90deg);
+      cursor: pointer;
+   }
+   .arrowtoa:hover{
+      width: 30%;
+  }
+  .arrowtob{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    left: 45%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .arrowtob a img {
+    transform: rotate(-90deg);
+    width: 50%;
+      height: auto;
+      cursor: pointer;
+   }
+   .arrowtob:hover{
+      width: 30%;
+  }
+  .arrowtoa{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 45%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .arrowtoa a img {
+    width: 50%;
+      height: auto;
+        transform: rotate(90deg);
+      cursor: pointer;
+   }
+   .arrowtoa:hover{
+      width: 30%;
+  }
+  .restart{
+    position: absolute;
+    z-index: 10;
+    bottom: 22%;
+    right: -10%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .restart a img {
+    width: 50%;
+      height: auto;
+      cursor: pointer;
+   }
+   .restart:hover{
+      width: 30%;
+  }
+  .rhole{
+    position: absolute;
+    z-index: 10;
+    top: 2%;
+    right: 0%;
+    width: 44%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .rhole a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+  .rhole:hover{
+    width: 46%    
+  }
+  .lhole{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    left: 0%;
+    width: 40%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .lhole a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+  .lhole:hover{
+    width: 42%    
+  }
+  .worm{
+    position: absolute;
+    z-index: 10;
+    top: 43%;
+    left: 43%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .worm a img {
+    width: 50%;
+      height: auto;
+      cursor: pointer;
+   }
+   .worm:hover{
+      width: 40%;
+  }
+  .worms{
+    position: absolute;
+    z-index: 10;
+    top: 16%;
+    left: 52%;
+    width: 27%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .worms a img {
+    width: 30%;
+      height: auto;
+      cursor: pointer;
+   }
+   .worms:hover{
+      width: 40%;
+      left: 50%;
+  }
+  .dig{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .dig a img {
+    transform: rotate(90deg);
+    width:30%;
+      height: auto;
+      cursor: pointer;
+   }
+   .dig:hover{
+      width: 40%;
+  }
+  .wormss{
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 52%;
+    width: 100%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .wormss a img {
+    width: 30%;
+      height: auto;
+      cursor: pointer;
+   }
+   .wormss:hover{
+      width: 150%;
+      left: 35%;
+  }
 
-.background img {
-  height: 80%;
-}
-
-.background a img {
-  position: absolute;
-  z-index: 10;
-  top: 25%;
-  left: 35%;
-  width: 50%;
-  height: auto;
-  cursor: pointer;
-  -webkit-transition: ease-in-out 2s;
-  transition: ease-in-out 2s;
-}
-
-.background a img:hover {
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
-}
-/*# sourceMappingURL=style.css.map */
