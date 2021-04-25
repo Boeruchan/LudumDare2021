@@ -259,4 +259,37 @@ p{
       width: 150%;
       left: 35%;
   }
+  .arrowtoleft{
+    position: absolute;
+    z-index: 10;
+    top: 26%;
+    left: 0%;
+    width: 27%;
+    height: auto;
+  } 
+  .arrowtoleft a img {
+    width: 50%;
+      height: auto;
+        transform: rotate(180deg);
+      cursor: pointer;
+   }
+   .arrowtoleft:hover{
+      width: 30%;
+  }
+  .arrowtoright{
+    position: absolute;
+    z-index: 10;
+    top: 26%;
+    right: -12%;
+    width: 27%;
+    height: auto;
+  } 
+  .arrowtoright a img {
+    width: 50%;
+      height: auto;
+      cursor: pointer;
+   }
+   .arrowtoright:hover{
+      width: 30%;
+  }
 
