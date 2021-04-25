@@ -19,12 +19,11 @@ p{
   font-family: 'Indie Flower', cursive;
   font-size: 1.3rem;
   margin-top: -18vh;
-  color: rgb(240, 221, 193);
+  color: rgb(250, 230, 201);
   z-index: 20;
 }
   .background {
       position: relative;
-      margin-top: 2%;
       width: auto;
       height: 100vh;
   }
