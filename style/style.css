@@ -23,6 +23,7 @@ body {
 }
 
 .background {
+  position: relative;
   margin-top: 2%;
   width: auto;
   height: 100vh;
@@ -30,5 +31,22 @@ body {
 
 .background img {
   height: 80%;
+}
+
+.background a img {
+  position: absolute;
+  z-index: 10;
+  top: 25%;
+  left: 35%;
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
+}
+
+.background a img:hover {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 /*# sourceMappingURL=style.css.map */
