@@ -19,7 +19,7 @@ p{
   font-family: 'Indie Flower', cursive;
   font-size: 1.3rem;
   margin-top: -18vh;
-  color: white;
+  color: rgb(240, 221, 193);
   z-index: 20;
 }
   .background {
@@ -29,6 +29,7 @@ p{
       height: 100vh;
   }
   img{
+    width: auto;
      height: 80%;
   }
   .start{
@@ -83,7 +84,7 @@ p{
 .ladder:hover{
       transform: rotate(10deg);
   }
-  .arrowtoa{
+  .arrowtobottom{
     position: absolute;
     z-index: 10;
     top: 60%;
@@ -92,16 +93,16 @@ p{
     height: auto;
     transition: ease-in-out 1s;
   }
-  .arrowtoa a img {
+  .arrowtobottom a img {
     width: 50%;
       height: auto;
         transform: rotate(90deg);
       cursor: pointer;
    }
-   .arrowtoa:hover{
+   .arrowtobottom:hover{
       width: 30%;
   }
-  .arrowtob{
+  .arrowtotop{
     position: absolute;
     z-index: 10;
     top: 0%;
@@ -110,31 +111,13 @@ p{
     height: auto;
     transition: ease-in-out 1s;
   }
-  .arrowtob a img {
+  .arrowtotop a img {
     transform: rotate(-90deg);
     width: 50%;
       height: auto;
       cursor: pointer;
    }
-   .arrowtob:hover{
-      width: 30%;
-  }
-  .arrowtoa{
-    position: absolute;
-    z-index: 10;
-    top: 60%;
-    left: 45%;
-    width: 27%;
-    height: auto;
-    transition: ease-in-out 1s;
-  }
-  .arrowtoa a img {
-    width: 50%;
-      height: auto;
-        transform: rotate(90deg);
-      cursor: pointer;
-   }
-   .arrowtoa:hover{
+   .arrowtotop:hover{
       width: 30%;
   }
   .restart{
@@ -292,4 +275,71 @@ p{
    .arrowtoright:hover{
       width: 30%;
   }
-
+  .rlasthole{
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    right: 0%;
+    width: 44%;
+    height: auto;
+    transition: ease-in-out 1s;
+  }
+  .rlasthole a img {
+    width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+  .rlasthole:hover{
+    top: 10%;
+    width: 55%    
+  }
+  .fatworm{
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    left: 20%;
+    width: 27%;
+    height: auto;
+  } 
+  .fatworm a img {
+    width: 50%;
+      height: auto;
+        transform: rotate(180deg);
+      cursor: pointer;
+   }
+   .fatworm:hover{
+      width: 30%;
+  }
+  .fattestworm{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: -5%;
+    width: 27%;
+    height: auto;
+  } 
+  .fattestworm a img {
+    width: 50%;
+      height: auto;
+      cursor: pointer;
+   }
+   .fattestworm:hover{
+      width: 28%;
+  }
+  .ending{
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left:40%;
+    width: 50%;
+    height: auto;
+    transition: ease-in-out 2s;
+  }
+  .ending a img {
+    width: 90%;
+      height: auto;
+      cursor: pointer;
+   }
+  .ending:hover{
+      transform: rotate(20deg);
+  }
